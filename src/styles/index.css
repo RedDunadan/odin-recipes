@@ -34,11 +34,6 @@ img:hover {
 li {
     margin: 3rem;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    margin: 3rem;
-}
 .link--container ul{
     display: flex;
     flex-direction: row;
@@ -48,8 +43,16 @@ li {
 }
 .link--container a {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     color: whitesmoke;
+    font-size: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
 }
 .ingredients {
     display: flex;
